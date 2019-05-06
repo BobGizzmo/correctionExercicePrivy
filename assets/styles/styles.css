@@ -1,0 +1,108 @@
+body {
+	background-color: #202020;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, .h1 {
+	font-size: 2.5vw;
+	color: #454645;
+	text-align: center;
+	margin: 0;
+}
+h2, .h2 {
+	font-size: 1.2vw;
+	color: #454645;
+	text-align: center;
+	margin: 0;
+}
+h3 {
+	color: #454645;
+}
+p {
+	font-size: 1vw;
+	color: #999898;
+}
+a {
+	color: #454645;
+	text-decoration: none;
+}
+.container {
+	display: flex;
+	width: 80%;
+	margin-left: 10%;
+}
+.left-part {
+	background-color: #2a2a2a;
+	width: 30%;
+}
+.left-part h1 {
+	color: #FFFFFF;
+
+}
+.left-part .subtitle {
+	color: #999898;
+}
+.left-part > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.logo img {
+	border-radius: 50%;
+}
+.left-part ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	text-transform: uppercase;
+}
+.left-part ul li {
+	padding: 10%;
+	border-top: 1px solid #454645;
+}
+.left-part ul li:hover {
+	background-color: #3280b7;
+}
+.left-part ul li:hover a {
+	color: #FFFFFF;
+}
+
+.right-part {
+	padding: 5%;
+	width: 70%;
+	background-color: #FFFFFF;
+}
+.right-part header {
+	text-align: center;
+}
+.right-part header img {
+	width: 100%;
+}
+.right-part article {
+	display: flex;
+	padding: 5%;
+	border-bottom: 1px solid #C0C0C0;
+}
+.right-part article .date {
+	width: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-right: 1px solid #C0C0C0;
+}
+.right-part article .date p {
+	margin: 0;
+}
+.right-part article .date .bigNumber {
+	font-size: 2.5vw;
+	font-weight: bold;
+}
+.right-part article .text-content {
+	width: 90%;
+	padding-left: 5%;
+}
+.right-part footer {
+	text-align: center;
+}
